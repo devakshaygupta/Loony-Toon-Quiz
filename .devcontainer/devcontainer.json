@@ -1,0 +1,15 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/javascript-node",
+  "features": {
+    "customizations": {
+      // Configure properties specific to VS Code.
+      "vscode": {
+        // Add the IDs of extensions you want installed when the container is created.
+        "extensions": [
+          "ask-toolkit.alexa-skills-kit-toolkit",
+          "dbaeumer.vscode-eslint"
+        ]
+      }
+    }
+  }
+}
